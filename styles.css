@@ -33,6 +33,40 @@ footer {
   padding: 15px;
 }
 
+/* Enhanced Contact Section */
+.contact {
+  padding: 60px 10%;
+  text-align: center;
+  background: rgb(0, 0, 0);
+}
+
+.contact h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #e50914;
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards 0.2s;
+  color: #bbb;
+}
+
+.contact a {
+  color: #e63946;
+  text-decoration: none;
+}
+
 .logo {
   font-weight: bold;
   color: white;
