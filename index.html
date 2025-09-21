@@ -1,28 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Benedict Cumberbatch Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <!-- Header -->
   <header>
-    <div class="logo">BENEDICT</div>
+    <div class="logo">BENEDICT <span class="red">CUMBERBATCH</span></div>
     <nav>
+      <a href="#home">Home</a>
       <a href="#about">About</a>
-      <a href="#projects">Movies</a>
+      <a href="#portfolio">Portfolio</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <h1>BENEDICT<br><span>CUMBERBATCH</span></h1>
-    <img src="images/benedict.png" alt="Benedict Cumberbatch">
+  <section class="hero" id="home">
+    <h1>BENEDICT <span>CUMBERBATCH</span></h1>
+    <img src="images/3.png" alt="Benedict Cumberbatch as Doctor Strange" class="hero-img">
   </section>
 
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-images">
+        <img src="videos/2.gif" alt="Spell Animation" class="spell-animation">
+        <img src="images/5.png" alt="Benedict Cumberbatch" class="about-img">
+      </div>
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+          I am Benedict Cumberbatch, a British actor recognized for bringing depth to characters such as 
+          Sherlock Holmes and Doctor Strange. With roots in theater and film, I’ve built a career exploring 
+          complex roles across stage and screen.
+        </p>
+        <p>
+          Beyond acting, I value storytelling that inspires and challenges audiences, while also supporting 
+          causes close to my heart. My work is driven by passion, creativity, and a dedication to the craft.
+        </p>
+        <button class="about-button">Learn More</button>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
