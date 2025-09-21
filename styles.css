@@ -277,7 +277,7 @@ nav a:active::after {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   header {
     padding: 20px 25px;
   }
@@ -287,11 +287,11 @@ nav a:active::after {
   }
 
   .hero h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .hero-img {
-    width: 250px;
+    width: 700px;
   }
 
   nav a {
